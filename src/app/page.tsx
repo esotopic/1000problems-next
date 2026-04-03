@@ -3,6 +3,12 @@ import Image from "next/image";
 
 const staticApps: Application[] = [
   {
+    id: 6, name: "VoiceQ",
+    description: "Voice-activated task queue for the 1000Problems ecosystem. Speak bugs, tasks, and feature ideas on the go — AI executes them autonomously while you get back to building.",
+    notes: null, url: "https://voiceq-api.vercel.app",
+    image_url: "/images/voiceq-logo.svg", is_active: true, created_date: "2026-04-03", modified_date: "2026-04-03",
+  },
+  {
     id: 5, name: "Reviewing Gary Tan's GSTACK",
     description: "A deep dive into Y Combinator CEO Garry Tan's open-source AI software factory that turns Claude Code into a virtual dev team — CEO, Designer, Eng Manager, QA, and more. 63K+ GitHub stars.",
     notes: null, url: "https://gstack-review-1000problems-projects.vercel.app",
